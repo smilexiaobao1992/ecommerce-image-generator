@@ -1,0 +1,4 @@
+interface:
+  display_name: "国内电商图生成器"
+  short_description: "面向淘宝天猫京东拼多多的商品主图、轮播图与详情页生成"
+  default_prompt: "Use $china-ecommerce-image-generator with my product photos and selling points to create platform-adapted Chinese ecommerce images."
