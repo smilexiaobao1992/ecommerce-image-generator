@@ -135,6 +135,14 @@ Inspect the whole path, not only the first image:
 - repeated buyer objections and missing proof;
 - platform UI overlays that may cover text or product.
 
+Separate **category grammar** from **desired positioning**. A search page may be
+dominated by promotion-heavy, oversized-copy images while the user is building
+a premium flagship-store listing. Learn the category's product scale, click
+logic, and proof devices, but let an explicit direction such as “高端、大气、
+旗舰店、品牌感” override the category-average decoration style. In that case,
+apply the premium flagship preset in the strategy reference and reject outdated
+stacked-photo, red-ribbon, coupon-card, and badge-wall treatments.
+
 Extract strategy, never proprietary expression. Do not copy exact wording,
 layout, icons, colour system, model pose, background, data, or brand elements.
 
@@ -196,6 +204,7 @@ Each prompt must include all of the following:
 ```text
 Platform and role: [platform] [role id] [placement]
 Output: [verified ratio/size or conservative master], mobile-first safe zones
+Visual tier: [value-led / technical / premium flagship / supplied brand system]
 Product truth: use supplied product images as exact visual reference; preserve
 shape, colour, proportions, state, branding, quantity, and included parts
 Core viewpoint: [one buyer-facing conclusion]
@@ -299,6 +308,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 - [ ] Facts separated from user claims and inferences
 - [ ] One buyer decision and one visual proof per image
 - [ ] Platform adaptation changes hierarchy, not only canvas size
+- [ ] Explicit premium/flagship direction overrides mass-market category-average decoration
+- [ ] Premium assets use restrained composition, material, light, and typography—not red ribbons, stacked cards, badge walls, or automatic black-gold styling
 - [ ] Main image, white-background image, SKU image, carousel, and detail page not confused
 - [ ] Chinese copy short, exact, legible, and not rendered with broken glyphs
 - [ ] Price/promotion/certification/comparison claims have source and conditions
@@ -317,6 +328,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 | Applying one fixed platform size table forever | Verify the current merchant field/category rule and record the source/date |
 | Resizing one design for four platforms | Preserve product truth but redesign hierarchy, crop, proof, and text density |
 | Filling images with price and badges | Use price only when current, supplied, requested, and legally/platform appropriate |
+| Treating “高端” as black-gold, red banners, or more effects | Build premium value through product scale, architectural space, controlled light, restrained colour, precise typography, and credible proof |
+| Blindly copying the dominant search-page style | Preserve the category's click logic while designing to the requested brand position |
 | Generating exact products from imagination | Use real product references; synthesize scene, not sellable-item identity |
 | Rendering long Chinese text inside AI images | Keep copy short or use deterministic post-typesetting |
 | Making long details as repeated banners | Build a varied module narrative with proof and decision progression |

@@ -6,14 +6,15 @@ Use this reference before planning or generating any domestic ecommerce image.
 
 1. The core difference from Amazon
 2. Platform priors
-3. Image-role design
-4. Buyer-first content architecture
-5. Chinese ecommerce copy system
-6. Detail-page narrative
-7. Prompt construction
-8. Reference-image adaptation
-9. Visual quality gates
-10. Default set logic
+3. Premium flagship visual preset
+4. Image-role design
+5. Buyer-first content architecture
+6. Chinese ecommerce copy system
+7. Detail-page narrative
+8. Prompt construction
+9. Reference-image adaptation
+10. Visual quality gates
+11. Default set logic
 
 ## 1. The core difference from Amazon
 
@@ -100,7 +101,95 @@ Create one product-truth source and separate compositions:
 Do not caricature the platforms. A premium Pinduoduo category may be cleaner
 than a promotion-heavy Tmall campaign; the live category always wins.
 
-## 3. Image-role design
+## 3. Premium flagship visual preset
+
+Use this preset when the user asks for `高端`, `大气`, `旗舰店`, `品牌感`,
+`premium`, or an equivalent mature-brand direction. It is a positioning choice,
+not a claim that every top-selling listing uses this style.
+
+### Art direction
+
+- Aim for editorial product photography suitable for a mature Tmall flagship
+  store or premium offline catalogue.
+- Make the product the visual authority: normally 60-75% of the square frame,
+  clearly grounded, with recognisable silhouette and material texture.
+- Use one hero product, one decisive claim, and one supporting line. Add a second
+  image, inset, or label only when it supplies real proof.
+- Choose either a restrained architectural studio or a believable premium home.
+  Warm ivory, stone, plaster, timber, and controlled shadow are useful; generic
+  luxury props are not.
+- Create depth with directional daylight, soft long shadows, edge highlights,
+  and contact shadows. Steel should read as steel; fabric, wood, leather, and
+  plastic should retain their own finish.
+
+### Colour system
+
+- Use roughly 70-85% warm neutral or quiet environmental colour, 10-20%
+  charcoal/product colour, and no more than 5-10% brand accent.
+- Suitable neutral families include warm ivory, light stone, greige, taupe,
+  charcoal, and near-black. Accent colour should identify meaning, not fill
+  decorative blocks.
+- Do not equate premium with black-gold gradients. A near-black editorial scene
+  is valid only when narrow highlights preserve the full product silhouette.
+- Avoid broad saturated red/yellow fields, discount-card colour blocking, and
+  multiple competing accents unless the supplied brand system or campaign
+  explicitly requires them.
+
+### Composition patterns
+
+Prefer one of these structures:
+
+1. **Product right / copy left** — large product on the right two-thirds,
+   deliberate negative space on the upper-left, low visual noise.
+2. **Architectural full-bleed** — product dominates a believable room or studio;
+   one quiet claim sits in an uncluttered corner.
+3. **Dark editorial** — near-black space, sculpted rim light, minimal pale copy,
+   and no gold badges or fake luxury motifs.
+
+For search-feed images, the product must remain legible before the room and copy.
+Do not shrink the product to make the scene look cinematic.
+
+### Typography system
+
+For deterministic production typesetting, prefer a modern Chinese sans with
+complete glyph coverage and an appropriate licence, such as Source Han Sans SC /
+Noto Sans CJK SC, HarmonyOS Sans SC, Alibaba PuHuiTi, or MiSans. Use the available
+brand font when one is supplied. Typeface names in an AI-image prompt describe
+the intended character only; they do not prove that the generated pixels use
+that exact font.
+
+- Headline: 1-2 lines, usually 4-10 Chinese characters, approximately 8-14% of
+  canvas height, weight 600-700, line height 0.95-1.08, tracking -1% to +2%.
+- Supporting line: approximately 2.5-4% of canvas height, weight 400-500,
+  generous breathing room; use separators consistently.
+- Functional labels or English eyebrow: smaller and quieter, weight 400-500,
+  tracking 2-6%; never let decorative English outrank the Chinese conclusion.
+- Use at most two font weights on one first image. Align text to a visible grid,
+  keep line breaks deliberate, and avoid heavy outlines, bevels, glow, faux 3D,
+  or mixed display fonts.
+- A key number may be largest only when it is verified and purchase-decisive.
+  Otherwise the product, not typography, owns the frame.
+
+For exact final copy, generate a clean base with a reserved text zone and typeset
+deterministically. Direct AI-rendered Chinese is acceptable only for a reviewed
+visual draft.
+
+### Premium anti-patterns
+
+Reject these unless the user supplies them as a mandatory brand device:
+
+- red corner wedges, red ribbon captions, coupon strips, price explosions;
+- three stacked photo windows or detail-page collage inside a first image;
+- pill-badge collections, floating icon constellations, certification walls;
+- black/yellow bargain cards, excessive strokes, drop shadows, bevels, and glow;
+- generic marble, gold frames, chandeliers, sports cars, or other borrowed luxury;
+- a tiny product surrounded by oversized slogans and empty effects.
+
+Premium quality gate: could the asset sit beside a mature flagship-store product
+or a premium retail catalogue without relying on a price badge? Do material,
+light, spacing, and type make the product feel considered?
+
+## 4. Image-role design
 
 ### MAIN-01 — Search/exposure first image
 
@@ -111,6 +200,9 @@ Decide first:
 - Is this field a white-background compliance image or a selling image?
 - What UI overlays, price blocks, corners, or crops cover the asset?
 - Does the category sell through look, function, quantity, model, or price?
+- Which visual tier is intended: value-led, technical, premium flagship, or the
+  supplied brand system? Explicit user positioning overrides category-average
+  decoration.
 
 Composition:
 
@@ -212,7 +304,7 @@ Goal: make the selected purchasable variant unmistakable.
   that exact SKU and current offer.
 - When variants look similar, use deterministic labels outside the product body.
 
-## 4. Buyer-first content architecture
+## 5. Buyer-first content architecture
 
 Create an evidence matrix:
 
@@ -227,7 +319,7 @@ Create an evidence matrix:
 
 If no proof exists, weaken or remove the claim rather than decorating it.
 
-## 5. Chinese ecommerce copy system
+## 6. Chinese ecommerce copy system
 
 Write for rapid mobile scanning.
 
@@ -264,13 +356,14 @@ Replace generic mood with a specific conclusion and visible proof.
 
 ### Typography
 
-- Use Chinese typefaces with reliable glyph coverage.
+- Use Chinese typefaces with reliable glyph coverage. For premium work, apply
+  the font families, weights, scale, tracking, and line-height rules in section 3.
 - Keep line breaks deliberate; avoid splitting a number from its unit.
 - Use one accent colour for meaning, not rainbow emphasis.
 - Reserve whitespace before generating the scene; do not paste text over faces,
   hands, product controls, dimensions, or critical material detail.
 
-## 6. Detail-page narrative
+## 7. Detail-page narrative
 
 Treat each module as one screen-level argument.
 
@@ -329,19 +422,20 @@ Vary module grammar:
 
 Avoid repeating `headline at top + centred product + four icon badges` down the page.
 
-## 7. Prompt construction
+## 8. Prompt construction
 
 Every prompt should make these decisions explicit:
 
 1. platform, role, placement, ratio, and safe zones;
-2. exact product-reference fidelity;
-3. single conclusion and proof event;
-4. camera, product scale, and physical interaction;
-5. foreground/middle/background;
-6. exact Chinese copy or reserved text area;
-7. typography treatment and label system;
-8. category-appropriate lighting and environment;
-9. forbidden claims, copied devices, geometry changes, and AI artifacts.
+2. visual tier and supplied brand system;
+3. exact product-reference fidelity;
+4. single conclusion and proof event;
+5. camera, product scale, and physical interaction;
+6. foreground/middle/background;
+7. exact Chinese copy or reserved text area;
+8. font family character, weight, scale, tracking, line height, and label system;
+9. category-appropriate lighting and environment;
+10. forbidden claims, copied devices, geometry changes, and AI artifacts.
 
 Example prompt skeleton:
 
@@ -350,6 +444,7 @@ Create a [platform] [role] ecommerce image for [product]. Use the supplied
 product photo as the exact sellable-item reference. Preserve [state, geometry,
 colour, quantity, logo, included items].
 
+Visual tier: [value-led / technical / premium flagship / supplied brand system].
 Core viewpoint: [short Chinese conclusion].
 Visual proof: [specific event tied to a real part/spec].
 Composition: [camera and product placement]; foreground [hook]; middle ground
@@ -362,7 +457,7 @@ Avoid: [unsupported claims, wrong SKU, invented accessories, distorted product,
 copied competitor layout, garbled text, plastic people, impossible reflections].
 ```
 
-## 8. Reference-image adaptation
+## 9. Reference-image adaptation
 
 From a user reference, extract:
 
@@ -378,7 +473,7 @@ Then change the layout, copy, colours, model, props, and scene for the current
 product. If a reference conflicts with product truth, current rules, or buyer
 value, keep only the useful communication principle.
 
-## 9. Visual quality gates
+## 10. Visual quality gates
 
 ### Human-made test
 
@@ -399,6 +494,7 @@ value, keep only the useful communication principle.
 - duplicated people, impossible hands, bent products, or floating shadows;
 - large generic slogans and unreadable support copy;
 - one template repeated across the entire set.
+- legacy red-banner or stacked-card marketplace styling presented as “premium”.
 
 ### Product consistency check
 
@@ -413,7 +509,7 @@ Compare every output against the reference:
 
 Any material mismatch requires regeneration or use of real product photography.
 
-## 10. Default set logic
+## 11. Default set logic
 
 When the user asks broadly for “主图+轮播图” and gives enough product evidence:
 
