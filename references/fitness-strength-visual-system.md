@@ -166,6 +166,44 @@ Reject the image when:
 - removing a bottom rail leaves the composition visibly unfinished;
 - the layout gets “premium” only by deleting useful product information.
 
+### Approved high-density power-commerce family
+
+Use this family when a strength product needs premium positioning and strong
+mainland search-page stopping power at the same time. It is a composition
+system, not one fixed template.
+
+Core relationship:
+
+- one correct athlete/action creates tension and scale;
+- the complete sellable product remains structurally legible and grounded;
+- one oversized 2-line buyer conclusion creates the primary stop;
+- one integrated evidence cluster answers the main objection;
+- a saturated brand-colour field physically connects headline, evidence, or
+  action instead of sitting as a decorative accent;
+- a believable bright home/studio layer keeps the card commercial and prevents
+  black equipment from becoming a cutout.
+
+Typical occupancy guidance:
+
+- product + action: 55-68%;
+- headline and supporting copy: 18-28%;
+- integrated evidence/action cluster: 10-18%;
+- visible brand colour surface: 12-25%, with overlap between these zones.
+
+Rotate the expression without losing density:
+
+| Variant | Primary stop | Secondary proof geometry |
+|---|---|---|
+| `HD-ACTION` | one large correct movement | angled structural evidence band |
+| `HD-PRODUCT` | monumental full product | 2-3 facts interlocked with the base/uprights |
+| `HD-MULTI` | main product + primary action | two smaller unequal action crops, not equal cards |
+| `HD-HOME` | product/action in a desirable room | brand-colour training-zone frame + compact placement proof |
+| `HD-TYPE` | oversized kinetic conclusion | product crosses or interrupts the type/colour field |
+
+Do not preserve the same bottom strip, green trapezoid, headline position, or
+icon row across variants. Preserve the commercial density, hierarchy, palette,
+photographic energy, and product truth instead.
+
 Reject a `MAIN-01` that reads primarily as:
 
 - a dark sports campaign with hidden product geometry;
