@@ -149,7 +149,8 @@ Default first-image hierarchy:
 
 1. complete sellable product, or product + one correct primary action;
 2. one short buyer conclusion;
-3. brand anchor and at most one small context/model tag.
+3. brand anchor, optional context/model tag, and an adaptive secondary layer
+   when verified facts and useful space justify it.
 
 Use physical depth to reinforce the hierarchy. In a scenario-led first image,
 place the sellable product in the foreground, the person in the middle ground,
@@ -157,20 +158,44 @@ and the room/brand geometry behind both. The product may overlap the person or
 headline edge when natural; the person must not visually stand in front of and
 reduce the SKU to background furniture.
 
-For a standard `MAIN-01`:
+For a standard `MAIN-01`, treat these as starting ranges rather than fixed
+templates. Adjust them to the product silhouette, copy length, user-supplied
+facts, and actual negative space:
 
 - product + athlete should normally carry 78-86% of the effective visual weight;
 - headline and its colour container should normally carry only 14-22%;
 - keep the headline to one conclusion, preferably 4-8 Chinese characters and
   no more than two compact lines;
-- omit feature lists, icon rows, macro windows, leader lines, and three-point
-  proof clusters by default; route them to `CAR-03` or `CAR-06`;
-- use one small support cue only when the main conclusion would otherwise be
-  ambiguous, and never let it create a second visual centre.
+- reserve macro windows, mechanism diagrams, detailed leader lines, and dense
+  proof boards for `CAR-03` or `CAR-06`;
+- allow 2-4 short verified function/benefit points on `MAIN-01` when meaningful
+  lower or side space remains after product, product name, and subtitle are
+  resolved;
+- keep any function cluster subordinate, normally about 8-15% of visual weight,
+  and never let it create a second visual centre.
 
 Reject a first image when large typography occupies roughly half the square,
 when the product becomes an illustration beside the slogan, or when feature
 proof makes it read like a carousel/detail board.
+
+#### Adaptive secondary-feature zone
+
+Do not force either emptiness or a feature list. After placing the product,
+person, product name, emotional subtitle, and brand proof, inspect the remaining
+space at both full size and 200 px.
+
+When a meaningful open zone remains, fill it with 2-4 supplied, verified short
+features if they improve the click decision. Good treatments include:
+
+- one compact aligned text group with varied emphasis;
+- small labels following floor perspective or the product base;
+- a restrained horizontal fact line with separators;
+- two asymmetric callouts attached to genuinely visible product zones;
+- one small brand-colour field carrying concise function copy.
+
+Do not default to a full-width bottom bar, equal icon cards, repeated pills, or
+a mini detail-page grid. Feature quantity, container, and placement must respond
+to the real empty space and information hierarchy; no single layout is mandatory.
 
 #### MAIN-01 naming and typography hierarchy
 
@@ -206,6 +231,22 @@ Typography rules:
 Never hard-code example claims into category output. Product names, export
 positioning, warranty, service, certifications, and other proof must come from
 the current user/product/brand evidence before they appear in the image.
+
+Do not style every copy role as the same coloured tag. Classify supplied copy
+before laying it out:
+
+| Copy role | Typical treatment |
+|---|---|
+| context/audience | one small brand-colour tag |
+| exact product name | primary dark headline, no enclosing badge |
+| emotional scenario | quieter subtitle with a short line or corner accent |
+| brand/service proof | one restrained grouped line, hairline, seal, or small text block |
+| product function/benefit | adaptive secondary group placed in genuine remaining space |
+
+Group claims that share the same role, but separate different roles through
+scale, weight, spacing, and container treatment. In particular, do not render a
+context tag and warranty/quality proof as repeated identical promotional
+ribbons; the repetition flattens hierarchy and makes premium work look generic.
 
 #### Open-frame product footprint gate
 
