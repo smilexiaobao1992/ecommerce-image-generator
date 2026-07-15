@@ -116,6 +116,58 @@ The three directions must differ on at least five axes:
 
 Palette swaps, moving the same headline, or changing only the room do not count.
 
+Creative divergence is role-bounded. For `MAIN-01`, vary only among search-card
+solutions that retain product identity, bright separation, buyer conclusion, and
+compact proof. Do not use role changes as fake divergence.
+
+### Search-card MAIN-01 hard gate
+
+For Taobao/Tmall fitness first images, require all of these before generation:
+
+- product or correct product-in-use action occupies about 55-72% of the frame;
+- the product category is recognisable before reading;
+- background is normally high-key white, light grey, pale brand tint, or a bright
+  believable room so a black product keeps its silhouette;
+- brand anchor stays small and consistent near one top corner;
+- one 6-10-character buyer conclusion appears near the top or side;
+- one compact bottom/side proof rail carries 2-3 short support points;
+- price, ranking, endorsement, patent, service, or numeric anchor appears only
+  when supplied, current, requested, and supportable;
+- the image still reads as a purchasable listing when reduced to 180-240 px.
+
+Reject a `MAIN-01` that reads primarily as:
+
+- a dark sports campaign with hidden product geometry;
+- a magazine cover dominated by an athlete;
+- a technical diagram with multiple macros and leader lines;
+- a detail-page feature board;
+- an abstract architectural poster.
+
+### Role-correct MAIN direction families
+
+#### M1 — PRODUCT-LED SEARCH HERO
+
+- full product is the largest object, normally 62-72% of the frame;
+- bright studio or believable home background;
+- strong main claim plus one aligned proof rail;
+- use when silhouette, base, model, or included quantity drives comparison.
+
+#### M2 — ACTION-LED SEARCH HERO
+
+- one athlete/user performs the main movement while the sellable product remains
+  at least 55% visible and structurally legible;
+- high-key or mid-key lighting; do not lose black uprights and base in darkness;
+- use one result headline and 2-3 structure/use supports;
+- avoid competitor-identical rear poses and exaggerated bodybuilding imagery.
+
+#### M3 — SCENARIO-LED SEARCH HERO
+
+- product remains dominant inside a bright, credible room that answers placement
+  or target-user context;
+- add one person only when it improves immediate understanding;
+- one brand-colour device and one compact proof rail keep it commercial;
+- the room supports the product and never becomes an architectural poster.
+
 ### Adult high-end concept families
 
 #### A1 — PERFORMANCE-EDITORIAL
@@ -127,6 +179,8 @@ Palette swaps, moving the same headline, or changing only the room do not count.
   legible or include a connected product view.
 - Typography behaves like a premium sports campaign: decisive but not a giant
   centred slogan; one model/product descriptor and a compact proof rail.
+- Default role: `CAM-01` or `CAR-02`. Use for `MAIN-01` only after converting it
+  to the high-key, product-legible M2 constraints.
 
 #### A2 — ENGINEERING-LUXE
 
@@ -136,6 +190,8 @@ Palette swaps, moving the same headline, or changing only the room do not count.
 - Use Swiss/industrial typography, strict grid, precise leader lines, and verified
   facts. No fake blueprint grid, HUD, or decorative numbers.
 - Suitable for buyers who distrust generic stability claims.
+- Default role: `CAR-03`, `CAR-04`, or `DET-04`; never use the macro board as
+  `MAIN-01`.
 
 #### A3 — ARCHITECTURAL-PRODUCT
 
@@ -146,6 +202,8 @@ Palette swaps, moving the same headline, or changing only the room do not count.
   one brand accent.
 - A bare product in a beige room with a generic headline and three flat labels is
   forbidden. That is a catalogue placeholder, not high-end art direction.
+- Default role: brand/campaign hero or detail opener. For `MAIN-01`, convert to
+  M1/M3 and preserve the search-card hard gate.
 
 ### High-end failure signature
 
@@ -325,7 +383,7 @@ list and design with qualitative copy until evidence exists.
 - Optional verified numeric anchor may interrupt the rail once.
 - Suitable for search first images of tall towers and fixed dip stations.
 - For adult high-end work, do not use F1 as a bare cutout template. Pair it with
-  an A1/A2/A3 visual event or choose another layout.
+  an M1/M2/M3 search event or choose another layout.
 
 ### F2 — Action + connected proof
 
@@ -488,6 +546,7 @@ structures. Do not fabricate a weak grey “other brand”.
 - [ ] Theme id and density are named before prompting
 - [ ] Concept family and signature visual event are named before prompting
 - [ ] Three exploration directions differ on at least five creative axes
+- [ ] MAIN-01 passes the search-card hard gate and does not switch image roles
 - [ ] Exact palette and accent ratio are included, not only “高端/科技”
 - [ ] Product remains legible at thumbnail size
 - [ ] One conversion thesis unifies all support points

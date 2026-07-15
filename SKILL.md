@@ -44,8 +44,10 @@ Infer the narrowest mode that satisfies the request:
   style divergence, 发散, 多个方向, or rejects an output as generic/cheap, create
   three strategically different directions before polishing one. Change the
   visual event, camera/crop, lighting, typography, proof device, and copy angle;
-  palette-only variants do not count. Generate separate previews when the user
-  asks to see effects.
+  palette-only variants do not count. Keep all directions inside the selected
+  image role: three MAIN directions must all remain search-ready product cards,
+  not one MAIN, one campaign poster, and one detail-page diagram. Generate
+  separate previews when the user asks to see effects.
 - **Prompt/plan only**: output shot plans and prompts without calling image
   generation only when the user explicitly asks for prompts, planning, or no
   generation.
@@ -222,6 +224,9 @@ Every image must pass:
 - **A distinct job**: it changes a buyer decision not already handled elsewhere.
 - **Thumbnail clarity**: product and conclusion survive a small mobile preview.
 - **Truth alignment**: copy, proof, SKU, and visible product all agree.
+- **Role recognition**: a `MAIN-01` looks like a purchasable product card at
+  search-thumbnail size; a technical board, cinematic campaign, or detail-page
+  module must not be mislabelled as a main image.
 
 ## Step 6 — Write generation prompts
 
@@ -348,6 +353,7 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 - [ ] Explicit premium/flagship direction overrides mass-market category-average decoration
 - [ ] Premium assets use restrained composition, material, light, and typography—not red ribbons, stacked cards, badge walls, or automatic black-gold styling
 - [ ] Main image, white-background image, SKU image, carousel, and detail page not confused
+- [ ] MAIN directions remain search-product cards; dark campaigns and technical boards are routed elsewhere
 - [ ] Chinese copy short, exact, legible, and not rendered with broken glyphs
 - [ ] Price/promotion/certification/comparison claims have source and conditions
 - [ ] No absolute, medical, deceptive, infringing, or off-platform claims
@@ -370,6 +376,7 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 | Picking colours independently for every image | Choose a named theme preset and keep its palette, accent ratio, typography, and proof-rail logic across the set |
 | Calling three palette swaps “creative directions” | Change subject/action, crop, light, type composition, proof device, and copy viewpoint |
 | Repeating one branded template across every SKU | Fix the recognition layer; vary the product story and visual event |
+| Calling a sports poster or technical board a first image | Keep MAIN product-led and thumbnail-readable; route campaigns to CAM and engineering proof to CAR/DET |
 | Blindly copying the dominant search-page style | Preserve the category's click logic while designing to the requested brand position |
 | Generating exact products from imagination | Use real product references; synthesize scene, not sellable-item identity |
 | Rendering long Chinese text inside AI images | Keep copy short or use deterministic post-typesetting |
