@@ -139,6 +139,39 @@ For Taobao/Tmall fitness first images, require all of these before generation:
   when supplied, current, requested, and supportable;
 - the image still reads as a purchasable listing when reduced to 180-240 px.
 
+#### MAIN-01 role-purity gate
+
+When a listing has later carousel images, the first image does not need to prove
+every feature. Its job is to identify the exact product, establish scale/use,
+communicate one click-worthy conclusion, and preserve room for later evidence.
+
+Default first-image hierarchy:
+
+1. complete sellable product, or product + one correct primary action;
+2. one short buyer conclusion;
+3. brand anchor and at most one small context/model tag.
+
+Use physical depth to reinforce the hierarchy. In a scenario-led first image,
+place the sellable product in the foreground, the person in the middle ground,
+and the room/brand geometry behind both. The product may overlap the person or
+headline edge when natural; the person must not visually stand in front of and
+reduce the SKU to background furniture.
+
+For a standard `MAIN-01`:
+
+- product + athlete should normally carry 78-86% of the effective visual weight;
+- headline and its colour container should normally carry only 14-22%;
+- keep the headline to one conclusion, preferably 4-8 Chinese characters and
+  no more than two compact lines;
+- omit feature lists, icon rows, macro windows, leader lines, and three-point
+  proof clusters by default; route them to `CAR-03` or `CAR-06`;
+- use one small support cue only when the main conclusion would otherwise be
+  ambiguous, and never let it create a second visual centre.
+
+Reject a first image when large typography occupies roughly half the square,
+when the product becomes an illustration beside the slogan, or when feature
+proof makes it read like a carousel/detail board.
+
 #### Open-frame product footprint gate
 
 Pull-up towers, freestanding bars, dip stations, and similar equipment are tall
@@ -148,11 +181,11 @@ overlap at search-thumbnail size.
 
 For an open-frame `MAIN-01`:
 
-- product-led images normally place the full product at 82-92% of canvas height
-  and 42-55% of canvas width at the base;
-- keep roughly 3-6% breathing room above the top grips and 2-5% below the lowest
+- product-led images normally place the full product at 92-96% of canvas height
+  and 52-62% of canvas width at the base;
+- keep roughly 2-4% breathing room above the top grips and 2-4% below the lowest
   floor pad; do not create premium space by shrinking the equipment;
-- action-led images normally make product + athlete occupy 70-80% of the active
+- action-led images normally make product + athlete occupy 78-86% of the active
   frame while the full uprights, handles, base, and all landing pads remain
   structurally readable;
 - enlarge the product about 8-15% from a visually thin first draft before
@@ -212,10 +245,11 @@ Core relationship:
 
 Typical occupancy guidance:
 
-- product + action: 70-80% for open-frame equipment, counting only the active
+- product + action: 78-86% for open-frame equipment, counting only the active
   combined visual footprint rather than the empty space inside the frame;
-- headline and supporting copy: 18-28%;
-- integrated evidence/action cluster: 10-18%;
+- headline and supporting copy: 14-22%;
+- integrated evidence/action cluster: omit on `MAIN-01` by default; use 8-14%
+  only for a carousel/detail role or when the user explicitly requests proof;
 - visible brand colour surface: 12-25%, with overlap between these zones.
 
 Rotate the expression without losing density:
@@ -244,9 +278,10 @@ Reject a `MAIN-01` that reads primarily as:
 
 #### M1 — PRODUCT-LED SEARCH HERO
 
-- full product is the largest object, normally 62-72% of the frame;
+- full product is the largest object; apply the open-frame footprint gate for
+  towers, racks, and freestanding bars;
 - bright studio or believable home background;
-- strong main claim plus an evidence container chosen for the composition;
+- one compact main claim; evidence is normally deferred to the carousel;
 - use when silhouette, base, model, or included quantity drives comparison.
 
 #### M2 — ACTION-LED SEARCH HERO
@@ -254,7 +289,7 @@ Reject a `MAIN-01` that reads primarily as:
 - one athlete/user performs the main movement while the sellable product remains
   at least 55% visible and structurally legible;
 - high-key or mid-key lighting; do not lose black uprights and base in darkness;
-- use one result headline and 2-3 structure/use supports;
+- use one compact result headline and at most one small context cue;
 - avoid competitor-identical rear poses and exaggerated bodybuilding imagery.
 
 #### M3 — SCENARIO-LED SEARCH HERO
@@ -262,6 +297,8 @@ Reject a `MAIN-01` that reads primarily as:
 - product remains dominant inside a bright, credible room that answers placement
   or target-user context;
 - add one person only when it improves immediate understanding;
+- keep the product in the foreground and the person smaller or partially behind
+  it unless a correct action requires direct body-product contact;
 - one brand-colour device and a compact commercial evidence treatment keep it
   recognisable as ecommerce;
 - the room supports the product and never becomes an architectural poster.
@@ -475,11 +512,12 @@ list and design with qualitative copy until evidence exists.
 
 ### F1 — Hero + proof rail
 
-- Product occupies 58-70% of the frame, normally centre-right.
+- Product remains dominant, normally centre-right.
 - Headline occupies the upper-left or top zone.
 - Two or three support points sit in one aligned rail, not separate badges.
 - Optional verified numeric anchor may interrupt the rail once.
-- Suitable for search first images of tall towers and fixed dip stations.
+- Suitable for proof-led carousel images; use for `MAIN-01` only when the user
+  explicitly requests visible proof on the first image.
 - For adult high-end work, do not use F1 as a bare cutout template. Pair it with
   an M1/M2/M3 search event or choose another layout.
 
@@ -604,7 +642,8 @@ If all text reads at equal strength, the hierarchy has failed.
 
 For these products, a useful 6-image carousel often follows:
 
-1. `MAIN-01`: D2 hero, one thesis + 2-3 supports.
+1. `MAIN-01`: product-dominant D2 hero, one compact thesis, normally no feature
+   proof cluster.
 2. `CAR-02`: primary movement/use goal with correct action.
 3. `CAR-03`: stability or adjustment mechanism with connected proof.
 4. `CAR-04`: verified dimensions, height/angle/width/space fit.
@@ -624,9 +663,9 @@ ways of proving value.
 
 | Form id | Best role | Visual event | Text form |
 |---|---|---|---|
-| `DF-PRODUCT` | MAIN/SKU | complete product, strongest three-quarter or front view | headline + one selected evidence container |
-| `DF-ACTION` | MAIN/CAR-02 | one correct movement on the exact product | result headline + 2-3 supports |
-| `DF-SCENE` | MAIN/CAR-05 | product dominant in a believable indoor setting | context headline + compact rail |
+| `DF-PRODUCT` | MAIN/SKU | complete product, strongest three-quarter or front view | one compact headline; optional small cue |
+| `DF-ACTION` | MAIN/CAR-02 | one correct movement on the exact product | compact result headline on MAIN; fuller proof on CAR |
+| `DF-SCENE` | MAIN/CAR-05 | product dominant in a believable indoor setting | compact context headline on MAIN; placement proof on CAR |
 | `DF-MACRO` | CAR-03/06/DET | one full product plus 1-3 connected real details | structure + buyer benefit |
 | `DF-SIZE` | CAR-04/DET-06 | floor-aligned dimensions, user/room scale | verified values + qualifiers |
 | `DF-MULTI` | CAR-02/03/DET | separate actions or functional zones | one umbrella claim + named modes |
