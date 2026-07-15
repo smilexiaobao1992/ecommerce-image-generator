@@ -1,6 +1,6 @@
 ---
 name: china-ecommerce-image-generator
-description: Use when a user asks to plan, generate, adapt, or revise product main images, white-background images, carousel selling-point images, SKU images, detail-page modules, or cross-platform image variants for Taobao, Tmall, JD, Pinduoduo, or 国内电商, including 主图, 轮播图, 卖点图, 详情页, 长图, 京东图, 拼多多图, 淘宝天猫图, 参考竞品, 换平台, or 单张重做.
+description: Use when a user asks to plan, generate, adapt, or revise product main images, white-background images, carousel selling-point images, SKU images, detail-page modules, or cross-platform image variants for Taobao, Tmall, JD, Pinduoduo, or 国内电商, including 主图, 轮播图, 卖点图, 详情页, 长图, 淘宝天猫图, 健身器材, 单杠, 双杠, 儿童单杠, 哑铃凳, 分体双杠, 参考竞品, 换平台, or 单张重做.
 ---
 
 # China Ecommerce Image Generator
@@ -12,6 +12,9 @@ inputs; do not turn an Amazon carousel into Chinese by only translating text.
 ## Load the right references
 
 - For any image request, read `references/china-ecommerce-image-strategy.md`.
+- For home fitness or strength equipment—especially 单杠, 双杠, 儿童单杠,
+  室内引体向上器, 力量塔, 哑铃凳, or 分体双杠—also read
+  `references/fitness-strength-visual-system.md`.
 - For platform-specific output, upload-ready claims, regulated categories,
   prices, promotions, certifications, comparison claims, or AI-generated final
   assets, also read `references/platform-rules-and-compliance.md`.
@@ -190,7 +193,9 @@ For every selected image, define:
 
 Every image must pass:
 
-- **One idea**: a buyer can summarize it in one sentence.
+- **One conversion thesis**: a buyer can summarize it in one sentence. The
+  image may contain 2-3 short supporting proof points when they all reinforce
+  that thesis; “one idea” does not mean “only one line of text”.
 - **One proof event**: something is being shown, compared, used, measured, or
   explained; product plus floating badges is not enough.
 - **A distinct job**: it changes a buyer decision not already handled elsewhere.
@@ -205,12 +210,15 @@ Each prompt must include all of the following:
 Platform and role: [platform] [role id] [placement]
 Output: [verified ratio/size or conservative master], mobile-first safe zones
 Visual tier: [value-led / technical / premium flagship / supplied brand system]
+Theme preset: [theme id, exact palette, accent ratio]
+Information density: [editorial / conversion / technical]
 Product truth: use supplied product images as exact visual reference; preserve
 shape, colour, proportions, state, branding, quantity, and included parts
 Core viewpoint: [one buyer-facing conclusion]
 Visual proof: [action/mechanism/scale/detail/comparison/process]
 Composition: [foreground / middle / background / product scale / camera angle]
 Text system: [exact Chinese copy or no text], [placement, hierarchy, background]
+Copy stack: [headline], [0-3 supporting proof points], [optional verified number]
 Style: [brand/category/platform direction], commercially credible photography
 Negative constraints: [unsupported claims, distortions, artifacts, forbidden
 elements, wrong SKU, copied competitor devices]
@@ -307,6 +315,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 - [ ] Product/SKU state, geometry, colour, quantity, and accessories preserved
 - [ ] Facts separated from user claims and inferences
 - [ ] One buyer decision and one visual proof per image
+- [ ] Copy density fits the platform/category; premium does not become information-empty
+- [ ] Theme id, palette, accent ratio, type system, and layout family are explicit
 - [ ] Platform adaptation changes hierarchy, not only canvas size
 - [ ] Explicit premium/flagship direction overrides mass-market category-average decoration
 - [ ] Premium assets use restrained composition, material, light, and typography—not red ribbons, stacked cards, badge walls, or automatic black-gold styling
@@ -329,6 +339,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 | Resizing one design for four platforms | Preserve product truth but redesign hierarchy, crop, proof, and text density |
 | Filling images with price and badges | Use price only when current, supplied, requested, and legally/platform appropriate |
 | Treating “高端” as black-gold, red banners, or more effects | Build premium value through product scale, architectural space, controlled light, restrained colour, precise typography, and credible proof |
+| Treating “高端” as one vague headline in empty space | Use one conversion thesis plus 2-3 concise, evidence-backed support points when the category requires fast comparison |
+| Picking colours independently for every image | Choose a named theme preset and keep its palette, accent ratio, typography, and proof-rail logic across the set |
 | Blindly copying the dominant search-page style | Preserve the category's click logic while designing to the requested brand position |
 | Generating exact products from imagination | Use real product references; synthesize scene, not sellable-item identity |
 | Rendering long Chinese text inside AI images | Keep copy short or use deterministic post-typesetting |

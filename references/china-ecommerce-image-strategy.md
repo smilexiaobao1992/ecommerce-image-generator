@@ -113,8 +113,9 @@ not a claim that every top-selling listing uses this style.
   store or premium offline catalogue.
 - Make the product the visual authority: normally 60-75% of the square frame,
   clearly grounded, with recognisable silhouette and material texture.
-- Use one hero product, one decisive claim, and one supporting line. Add a second
-  image, inset, or label only when it supplies real proof.
+- Use one hero product and one unified conversion thesis. Choose 1-3 supporting
+  proof points by category and information-density preset; premium must stay
+  disciplined but must not become information-empty.
 - Choose either a restrained architectural studio or a believable premium home.
   Warm ivory, stone, plaster, timber, and controlled shadow are useful; generic
   luxury props are not.
