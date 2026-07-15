@@ -14,7 +14,7 @@ inputs; do not turn an Amazon carousel into Chinese by only translating text.
 - For any image request, read `references/china-ecommerce-image-strategy.md`.
 - For home fitness or strength equipment—especially 单杠, 双杠, 儿童单杠,
   室内引体向上器, 力量塔, 哑铃凳, or 分体双杠—also read
-  `references/fitness-strength-visual-system.md`.
+  `references/categories/fitness-strength-visual-system.md`.
 - For platform-specific output, upload-ready claims, regulated categories,
   prices, promotions, certifications, comparison claims, or AI-generated final
   assets, also read `references/platform-rules-and-compliance.md`.
