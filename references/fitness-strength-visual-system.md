@@ -131,7 +131,10 @@ For Taobao/Tmall fitness first images, require all of these before generation:
   believable room so a black product keeps its silhouette;
 - brand anchor stays small and consistent near one top corner;
 - one 6-10-character buyer conclusion appears near the top or side;
-- one compact bottom/side proof rail carries 2-3 short support points;
+- compact proof is present when needed, but its container is not fixed: use a
+  bottom rail, side rail, connected callouts, integrated labels, split-zone
+  facts, or no secondary copy when the product and headline already close the
+  buyer question;
 - price, ranking, endorsement, patent, service, or numeric anchor appears only
   when supplied, current, requested, and supportable;
 - the image still reads as a purchasable listing when reduced to 180-240 px.
@@ -150,7 +153,7 @@ Reject a `MAIN-01` that reads primarily as:
 
 - full product is the largest object, normally 62-72% of the frame;
 - bright studio or believable home background;
-- strong main claim plus one aligned proof rail;
+- strong main claim plus an evidence container chosen for the composition;
 - use when silhouette, base, model, or included quantity drives comparison.
 
 #### M2 — ACTION-LED SEARCH HERO
@@ -166,7 +169,8 @@ Reject a `MAIN-01` that reads primarily as:
 - product remains dominant inside a bright, credible room that answers placement
   or target-user context;
 - add one person only when it improves immediate understanding;
-- one brand-colour device and one compact proof rail keep it commercial;
+- one brand-colour device and a compact commercial evidence treatment keep it
+  recognisable as ecommerce;
 - the room supports the product and never becomes an architectural poster.
 
 ### Adult high-end concept families
@@ -527,7 +531,7 @@ ways of proving value.
 
 | Form id | Best role | Visual event | Text form |
 |---|---|---|---|
-| `DF-PRODUCT` | MAIN/SKU | complete product, strongest three-quarter or front view | headline + bottom proof rail |
+| `DF-PRODUCT` | MAIN/SKU | complete product, strongest three-quarter or front view | headline + one selected evidence container |
 | `DF-ACTION` | MAIN/CAR-02 | one correct movement on the exact product | result headline + 2-3 supports |
 | `DF-SCENE` | MAIN/CAR-05 | product dominant in a believable indoor setting | context headline + compact rail |
 | `DF-MACRO` | CAR-03/06/DET | one full product plus 1-3 connected real details | structure + buyer benefit |
@@ -538,7 +542,7 @@ ways of proving value.
 
 ### Brand-consistent text containers
 
-Choose one or two for a set; do not use all at once:
+Choose one or two per image and rotate them across a set; do not use all at once:
 
 - dark bottom proof rail with brand-colour top rule;
 - slim side rail for 2-3 vertically aligned facts;
@@ -546,11 +550,35 @@ Choose one or two for a set; do not use all at once:
 - one verified numeric anchor with compact qualifier;
 - connected leader line for a real macro or measurement;
 - stepped number sequence for adjustment/setup only.
+- integrated editorial copy in negative space with no enclosing panel;
+- one bold mid-frame colour cut carrying the main claim;
+- two asymmetric proof notes anchored to real product zones;
+- minimal mode with only logo, product, and one buyer conclusion.
 
 Avoid three equal floating pills, repeated icon circles, or an identical bottom
-rail on every carousel image. The first image may establish the rail; later
-images can use connected labels, dimensions, or steps while retaining the same
-type, colour, line weight, and logo zone.
+rail across alternatives or a carousel set. A bottom rail is one option, not a
+brand invariant. Across three MAIN alternatives, require at least three
+different information geometries. Across a carousel set, do not repeat the same
+container on consecutive images; retain cohesion through type, colour, line
+weight, logo zone, and image treatment instead.
+
+### MAIN information-geometry rotation
+
+Use these as layout families, not decorative overlays:
+
+| Geometry | Best use | Constraint |
+|---|---|---|
+| `IG-OPEN` | premium product or home hero | no rail; one headline in clean negative space |
+| `IG-SIDE` | tall pull-up towers and racks | slim vertical fact track reinforces height |
+| `IG-ANCHOR` | stability or engineering claim | 1-2 callouts attach to real visible structure |
+| `IG-CUT` | power/action direction | one bold colour plane intersects text, not product geometry |
+| `IG-SPLIT` | multi-function or comparison | unequal 65/35 zones; complete product remains primary |
+| `IG-FRAME` | scenario or target-user direction | partial border or corner frame contains context, not every fact |
+| `IG-MINIMAL` | strongest silhouette and premium SKU | logo + product + one conclusion; no secondary proof copy |
+
+Do not present alternatives that differ only by palette, room, or headline.
+Change the buyer tension, product camera, information geometry, and proof device
+while preserving the brand constants and exact SKU.
 
 ### Product-family display routes
 
