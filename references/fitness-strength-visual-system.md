@@ -17,8 +17,9 @@ bars, and related indoor strength equipment.
 9. Information density and copy
 10. Typography
 11. Image-set blueprint
-12. Fitness-specific compliance
-13. Quality gates
+12. Display-form library
+13. Fitness-specific compliance
+14. Quality gates
 
 ## 1. Evidence boundary
 
@@ -518,7 +519,53 @@ For these products, a useful 6-image carousel often follows:
 Do not repeat “stable” on three images. MAIN makes the conclusion, CAR-03 proves
 the structure, and CAR-05 shows correct use.
 
-## 12. Fitness-specific compliance
+## 12. Display-form library
+
+Keep brand constants fixed while rotating display forms. Do not rotate theme,
+font, and layout all at once; the set should feel like one brand with different
+ways of proving value.
+
+| Form id | Best role | Visual event | Text form |
+|---|---|---|---|
+| `DF-PRODUCT` | MAIN/SKU | complete product, strongest three-quarter or front view | headline + bottom proof rail |
+| `DF-ACTION` | MAIN/CAR-02 | one correct movement on the exact product | result headline + 2-3 supports |
+| `DF-SCENE` | MAIN/CAR-05 | product dominant in a believable indoor setting | context headline + compact rail |
+| `DF-MACRO` | CAR-03/06/DET | one full product plus 1-3 connected real details | structure + buyer benefit |
+| `DF-SIZE` | CAR-04/DET-06 | floor-aligned dimensions, user/room scale | verified values + qualifiers |
+| `DF-MULTI` | CAR-02/03/DET | separate actions or functional zones | one umbrella claim + named modes |
+| `DF-STEPS` | CAR-07/DET-07 | setup, adjustment, folding, or storage sequence | numbered steps, minimal prose |
+| `DF-SKU` | SKU/CAR-07 | exact colour, pair count, package, included parts | deterministic variant labels |
+
+### Brand-consistent text containers
+
+Choose one or two for a set; do not use all at once:
+
+- dark bottom proof rail with brand-colour top rule;
+- slim side rail for 2-3 vertically aligned facts;
+- small brand-colour context tag above the headline;
+- one verified numeric anchor with compact qualifier;
+- connected leader line for a real macro or measurement;
+- stepped number sequence for adjustment/setup only.
+
+Avoid three equal floating pills, repeated icon circles, or an identical bottom
+rail on every carousel image. The first image may establish the rail; later
+images can use connected labels, dimensions, or steps while retaining the same
+type, colour, line weight, and logo zone.
+
+### Product-family display routes
+
+| Product | Recommended form sequence |
+|---|---|
+| Pull-up / power tower | `DF-ACTION` MAIN -> `DF-MULTI` -> `DF-MACRO` -> `DF-SIZE` -> `DF-SCENE` -> `DF-SKU/STEPS` |
+| Children's indoor bar | `DF-SCENE/ACTION` MAIN -> `DF-SIZE` -> `DF-STEPS` -> `DF-MACRO` -> supervised `DF-SCENE` -> `DF-SKU` |
+| Adjustable bench | `DF-PRODUCT` MAIN -> angle `DF-MULTI` -> lock/pad `DF-MACRO` -> verified `DF-SIZE` -> exercise `DF-ACTION` -> fold/store `DF-STEPS` |
+| Fixed dip station | `DF-ACTION` MAIN -> `DF-PRODUCT` -> base/grip `DF-MACRO` -> `DF-SIZE` -> `DF-SCENE` -> `DF-SKU` |
+| Split dip bars | `DF-PRODUCT` MAIN -> `DF-ACTION` -> pair/spacing `DF-SIZE` -> adjustment `DF-STEPS` -> grip/base `DF-MACRO` -> `DF-SKU` |
+
+Set-diversity gate: no two consecutive images may use the same product crop,
+same person/action, same text container, and same proof device.
+
+## 13. Fitness-specific compliance
 
 Require evidence before displaying:
 
@@ -541,12 +588,14 @@ For children:
 For comparison images, compare verified same-brand models or documented
 structures. Do not fabricate a weak grey “other brand”.
 
-## 13. Quality gates
+## 14. Quality gates
 
 - [ ] Theme id and density are named before prompting
 - [ ] Concept family and signature visual event are named before prompting
 - [ ] Three exploration directions differ on at least five creative axes
 - [ ] MAIN-01 passes the search-card hard gate and does not switch image roles
+- [ ] Display forms rotate while brand constants remain fixed
+- [ ] No consecutive slots repeat crop, action, text container, and proof device
 - [ ] Exact palette and accent ratio are included, not only “高端/科技”
 - [ ] Product remains legible at thumbnail size
 - [ ] One conversion thesis unifies all support points
