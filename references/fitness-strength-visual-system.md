@@ -9,23 +9,24 @@ bars, and related indoor strength equipment.
 1. Evidence boundary
 2. Chinese buyer decision path
 3. Current category signals
-4. Configuration contract
-5. Theme presets
-6. Product routing
-7. Layout families
-8. Information density and copy
-9. Typography
-10. Image-set blueprint
-11. Fitness-specific compliance
-12. Quality gates
+4. Brand system and creative divergence
+5. Configuration contract
+6. Theme presets
+7. Product routing
+8. Layout families
+9. Information density and copy
+10. Typography
+11. Image-set blueprint
+12. Fitness-specific compliance
+13. Quality gates
 
 ## 1. Evidence boundary
 
 Treat marketplace observations as category signals, not universal truths. The
-brand notes below were extracted from a user-supplied current Taobao search
-screenshot featuring 迈康, 易持健, UMAY/佑美, and ADKING. Direct automated reading
-of the logged-in search page was unavailable. Recheck live category examples,
-merchant rules, reviews, and product evidence when they are accessible.
+brand notes below were extracted from user-supplied current Taobao search
+screenshots featuring 迈康, 易持健, UMAY/佑美, and ADKING. Direct automated
+reading of the logged-in search page was unavailable. Recheck live category
+examples, merchant rules, reviews, and product evidence when they are accessible.
 
 Never copy a competitor's exact headline, ranking strip, athlete pose, colour
 layout, badges, or product claims. Transfer only the underlying decision logic.
@@ -64,10 +65,10 @@ Use these as strategic observations from the supplied search screenshot:
 
 | Brand signal | What it communicates quickly | Transferable lesson | Do not copy |
 |---|---|---|---|
-| 迈康 | A decisive stability conclusion, large product, home context, visible service/proof rail | Lead with the strongest objection and keep the product dominant | Exact slogan, orange header, bottom ribbon layout |
+| 迈康 | Repeated orange-red brand anchor, decisive stability conclusion, large product, fixed lower proof/service rail | A fixed recognition layer can make many similar SKUs instantly recognisable | Exact slogan, price block, orange header, repeated template |
 | 易持健 | Target user and training outcome, person demonstrating the product, prominent brand red | A specific use goal can outperform abstract “premium” language | Exam-result promise, exact red blocks, model pose |
-| UMAY / 佑美 | Cleaner lifestyle room, strong black headline, yellow trust/ranking strip | Combine a mature scene with fast comparison cues | TOP1/ranking claim, yellow strip, wording |
-| ADKING | Athlete action, structure/safety headline, technical lower rail | Pair performance emotion with a visible structural reason to believe | Athlete composition, safety/patent wording, badge system |
+| UMAY / 佑美 | Product-specific art direction across many categories, consistent logo/type/trust rail, frequent people and macro proof | Keep brand constants while changing visual storytelling by product | TOP1/ranking claim, official-event strip, exact compositions |
+| ADKING | Muscular athlete action, red-black product identity, structure macro, bold safety/stability headline | Pair performance emotion with a visible structural reason to believe | Athlete pose, absolute safety/patent wording, champion endorsement strip |
 
 The common category grammar is not “add more badges”. It is:
 
@@ -77,7 +78,89 @@ The common category grammar is not “add more badges”. It is:
 - one stable brand accent system;
 - a bottom or side information rail when thumbnail comparison needs it.
 
-## 4. Configuration contract
+## 4. Brand system and creative divergence
+
+### Fix recognition; vary the story
+
+Use a two-layer system:
+
+| Fixed brand layer | Flexible creative layer |
+|---|---|
+| logo position and clear space | athlete, family, or product-only subject |
+| Chinese type family and numeric family | headline layout and scale |
+| accent colour logic and highlight rule | scene, crop, camera, and light |
+| proof/trust rail grammar | visual proof event and macro detail |
+| label shape, corner radius, and line weight | copy viewpoint by product and buyer objection |
+
+Do not freeze the whole card. MIKING-style repetition improves recognition but
+becomes commodity-like when copied across every SKU; UMAY-style variation shows
+how one brand can feel broader and more premium while retaining anchors.
+
+### Creative divergence gate
+
+Trigger a three-direction exploration when:
+
+- a brand system is not yet established;
+- the user asks for `高端`, `品牌感`, `发散`, `多个方向`, or `不一样的风格`;
+- the user rejects an output as `普通`, `廉价`, `AI感`, `不高端`, or `没法用`.
+
+The three directions must differ on at least five axes:
+
+1. visual event: athlete action / structure macro / product in architecture;
+2. product crop and camera height;
+3. light: dramatic rim / clinical hard-soft / architectural daylight;
+4. typography composition: editorial / Swiss technical / quiet catalogue;
+5. proof device: body action / connected macro / space-fit or mechanism;
+6. copy viewpoint: result / engineering reason / ownership context;
+7. colour balance and surface material.
+
+Palette swaps, moving the same headline, or changing only the room do not count.
+
+### Adult high-end concept families
+
+#### A1 — PERFORMANCE-EDITORIAL
+
+- One athlete performs the primary movement with correct grip and body contact.
+- Use a bold crop, controlled asymmetry, darker graphite/oxide-red palette, and
+  a strong diagonal or vertical body-product relationship.
+- Let anatomy and product structure share the hero. Keep the full sellable form
+  legible or include a connected product view.
+- Typography behaves like a premium sports campaign: decisive but not a giant
+  centred slogan; one model/product descriptor and a compact proof rail.
+
+#### A2 — ENGINEERING-LUXE
+
+- Product or structural joint is the hero; use one or two connected macros.
+- Use silver-grey, graphite, off-white, and one signal colour; sharp surface
+  light should reveal tube finish, bolts, locks, pads, or feet.
+- Use Swiss/industrial typography, strict grid, precise leader lines, and verified
+  facts. No fake blueprint grid, HUD, or decorative numbers.
+- Suitable for buyers who distrust generic stability claims.
+
+#### A3 — ARCHITECTURAL-PRODUCT
+
+- Integrate the product into a distinctive interior, but create a real visual
+  event: hard window shadow, sculptural framing, action, or space-fit proof.
+- Keep product scale high and use one connected detail or proof strip.
+- Typography is quieter and more editorial, with deliberate negative space and
+  one brand accent.
+- A bare product in a beige room with a generic headline and three flat labels is
+  forbidden. That is a catalogue placeholder, not high-end art direction.
+
+### High-end failure signature
+
+Reject the direction before generation when all are true:
+
+- generic beige/greige room;
+- product simply parked on the right;
+- oversized black sans headline on the left;
+- three equal text labels with no visual connection to product evidence;
+- no athlete, macro, material story, spatial proof, or signature lighting idea.
+
+This pattern looks clean but anonymous and is especially weak for adult strength
+equipment.
+
+## 5. Configuration contract
 
 Resolve these fields before composing a fitness image:
 
@@ -85,27 +168,67 @@ Resolve these fields before composing a fitness image:
 PRODUCT_FAMILY: [power-tower / pull-up-dip / kids-bar / bench / dip-station /
 split-dip-bars]
 PLATFORM_ROLE: [platform + MAIN/CAR/DET/SKU]
-THEME_ID: [STRENGTH-RED / LIME-TECH / WARM-FLAGSHIP / KIDS-ACTIVE /
-MONO-ENGINEERING / supplied-brand]
+THEME_ID: [BRAND-LIME / STRENGTH-RED / LIME-TECH / WARM-FLAGSHIP /
+KIDS-ACTIVE / MONO-ENGINEERING / supplied-brand]
 DENSITY: [D1-editorial / D2-conversion / D3-technical]
+CONCEPT_FAMILY: [A1-performance-editorial / A2-engineering-luxe /
+A3-architectural-product / kids-active / supplied-brand]
 LAYOUT_ID: [F1-hero-rail / F2-action-proof / F3-structure-macro /
 F4-pair-symmetry / F5-kids-room]
 PALETTE: [background / ink / accent / support / surface]
 TYPE_SYSTEM: [Chinese family / weights / number family]
 COPY_STACK: [headline / 0-3 support points / optional verified number /
 optional documented trust or service term]
+BRAND_CONSTANTS: [logo zone / type / accent rule / trust-rail grammar]
+CREATIVE_VARIABLES: [subject / camera / light / scene / proof device]
 PROOF_EVENT: [visible action, structure, dimension, mechanism, or exact contents]
 ```
 
 If the user supplies brand colours, use `supplied-brand` and derive accessible
 light/dark/support tones from those colours. Do not silently replace the brand.
 
-## 5. Theme presets
+## 6. Theme presets
 
-### STRENGTH-RED — adult default
+### Theme-source priority
+
+1. supplied brand guide or explicit user theme;
+2. current official brand site/store visual system;
+3. exact SKU colours;
+4. a named generic preset offered as an option.
+
+Never adopt red, yellow, or another competitor colour merely because it is common
+in the category. Learn the competitor's information hierarchy, not its identity.
+
+### BRAND-LIME — high-end performance
+
+Use for a brand whose identity is acid/lime green with dark ink, including the
+current KAILEX system observed on `kailexfit.com`. The verified site tokens are:
+
+| Token | Colour | Use |
+|---|---|---|
+| `canvas` | `#FBFCFA` | Clean primary ground, 62-75% |
+| `ink` | `#000222` | Headlines, dark fields, product support, 20-30% |
+| `brand` | `#8DDB04` | Primary signal green, 5-8% |
+| `highlight` | `#A7F12A` | Small highlight or CTA only, 0-3% |
+| `tint` | derived pale lime at 6-10% opacity | Angled plane or quiet section field |
+
+KAILEX's current website uses Barlow for body copy and Barlow Condensed at heavy
+weights for large English display text. Translate that to Chinese ecommerce as:
+
+- Source Han Sans SC / HarmonyOS Sans SC / supplied Chinese brand sans for Chinese;
+- Barlow Condensed for English, numbers, model names, and compact labels;
+- high-contrast navy/white fields, lime signal words, thin rules, outlined cells,
+  and occasional angled pale-lime planes;
+- bold industrial/editorial rhythm rather than warm-beige home-luxury styling.
+
+Do not merely screenshot the B2B website style. Preserve its identity while
+rebuilding for a consumer decision: product, result, proof, fit, and trust.
+
+### STRENGTH-RED — optional red-brand preset
 
 Use for black single bars, pull-up/dip towers, power towers, dip stations, and
-adjustable benches when the direction is strong, premium, and conversion-led.
+adjustable benches only when the supplied brand system is red or the user
+explicitly selects a red performance direction.
 
 | Token | Colour | Use |
 |---|---|---|
@@ -177,22 +300,22 @@ Use for structure, dimensions, mechanisms, model comparison, and technical trust
 
 No fake blueprint grid, HUD rings, or decorative engineering numbers.
 
-## 6. Product routing
+## 7. Product routing
 
 | Product | Default theme | Density | Main layout | High-value questions |
 |---|---|---|---|---|
-| Single pull-up / pull-up-dip tower | STRENGTH-RED | D2 | F1 or F2 | stability, footprint, height, movements |
-| Full power tower | STRENGTH-RED | D2 | F1 | multi-function identity, base, contact pads, room fit |
+| Single pull-up / pull-up-dip tower | supplied-brand; BRAND-LIME for KAILEX | D2 | F1 or F2 | stability, footprint, height, movements |
+| Full power tower | supplied-brand; BRAND-LIME for KAILEX | D2 | F1 | multi-function identity, base, contact pads, room fit |
 | Children's indoor bar | KIDS-ACTIVE | D2 | F5 | height/age fit, practice use, footprint, supervision |
-| Adjustable bench | STRENGTH-RED or MONO-ENGINEERING | D2/D3 | F3 | angles, locking structure, padding, folded size |
-| Fixed dip station | STRENGTH-RED | D2 | F1/F2 | pair quantity, grip height, base/contact, movement |
+| Adjustable bench | supplied-brand or MONO-ENGINEERING | D2/D3 | F3 | angles, locking structure, padding, folded size |
+| Fixed dip station | supplied-brand; BRAND-LIME for KAILEX | D2 | F1/F2 | pair quantity, grip height, base/contact, movement |
 | Split/adjustable dip bars | LIME-TECH | D2 | F4 | pair identity, movable width, height, storage |
 
 Do not infer exact load, height range, angle count, age range, floor area, or
 included accessories from the photograph. Route missing facts to a confirmation
 list and design with qualitative copy until evidence exists.
 
-## 7. Layout families
+## 8. Layout families
 
 ### F1 — Hero + proof rail
 
@@ -201,6 +324,8 @@ list and design with qualitative copy until evidence exists.
 - Two or three support points sit in one aligned rail, not separate badges.
 - Optional verified numeric anchor may interrupt the rail once.
 - Suitable for search first images of tall towers and fixed dip stations.
+- For adult high-end work, do not use F1 as a bare cutout template. Pair it with
+  an A1/A2/A3 visual event or choose another layout.
 
 ### F2 — Action + connected proof
 
@@ -231,7 +356,7 @@ list and design with qualitative copy until evidence exists.
 - Pair one functional headline with 2-3 parent questions: adjustment, footprint,
   grip/contact, or storage—only when verified.
 
-## 8. Information density and copy
+## 9. Information density and copy
 
 ### D1 — Editorial
 
@@ -268,14 +393,15 @@ Use these as structures, not ready-made claims:
 | Split dip bars | movable placement and pair flexibility | pair quantity, width positioning, height, storage |
 
 Prefer concrete structures such as `结果 + 使用场景`, `结构 + 好处`, or
-`问题 + 解决`. Reject vague copy such as `家庭力量站`, `品质升级`, or
-`专业之选` unless a more specific line immediately explains the buyer value.
+`问题 + 解决`. Reject vague copy such as `家庭力量站`, `一架练上肢`,
+`品质升级`, or `专业之选` unless a more specific line immediately explains the
+buyer value.
 
 Do not use `中考满分`, `TOP1`, `奥运推荐`, `国家专利`, `不晃动`, `不侧翻`,
 `绝对安全`, or an exact load/age range without current, product-specific proof
 and a lawful context.
 
-## 9. Typography
+## 10. Typography
 
 Use deterministic typesetting for production whenever possible.
 
@@ -288,8 +414,14 @@ Use deterministic typesetting for production whenever possible.
 - Proof points: weight 500-650; 3-4.5% of canvas height; line height 1.1-1.25.
 - Numbers: Barlow Condensed or a licensed DIN-like numeric face; never mix more
   than one numeric family with one Chinese family.
+- For KAILEX, use Barlow Condensed for English/numbers/model labels and pair it
+  with a heavy modern Chinese sans; preserve the website's ink `#000222` and lime
+  `#8DDB04` contrast.
 - Use weight and alignment before outline. Avoid strokes, bevels, glow, italic
   Chinese, condensed Chinese glyphs, and more than two Chinese weights.
+- Vary typography by concept: A1 may use a cropped editorial headline and strong
+  baseline; A2 uses a strict technical grid; A3 uses quieter type with larger
+  spacing. Do not reuse one left-aligned headline stack for all three.
 
 ### Children's system
 
@@ -312,7 +444,7 @@ At a 180-240 px thumbnail, the viewer should perceive in this order:
 
 If all text reads at equal strength, the hierarchy has failed.
 
-## 10. Image-set blueprint
+## 11. Image-set blueprint
 
 For these products, a useful 6-image carousel often follows:
 
@@ -328,7 +460,7 @@ For these products, a useful 6-image carousel often follows:
 Do not repeat “stable” on three images. MAIN makes the conclusion, CAR-03 proves
 the structure, and CAR-05 shows correct use.
 
-## 11. Fitness-specific compliance
+## 12. Fitness-specific compliance
 
 Require evidence before displaying:
 
@@ -351,9 +483,11 @@ For children:
 For comparison images, compare verified same-brand models or documented
 structures. Do not fabricate a weak grey “other brand”.
 
-## 12. Quality gates
+## 13. Quality gates
 
 - [ ] Theme id and density are named before prompting
+- [ ] Concept family and signature visual event are named before prompting
+- [ ] Three exploration directions differ on at least five creative axes
 - [ ] Exact palette and accent ratio are included, not only “高端/科技”
 - [ ] Product remains legible at thumbnail size
 - [ ] One conversion thesis unifies all support points
@@ -364,3 +498,4 @@ structures. Do not fabricate a weak grey “other brand”.
 - [ ] Product colour, pair quantity, parts, and contact points remain truthful
 - [ ] Premium is established by hierarchy, proof, light, and material—not empty
   space, generic luxury, or a discount poster
+- [ ] Output avoids the beige-room + right-product + giant-left-title + flat-label failure signature

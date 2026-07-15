@@ -40,6 +40,12 @@ Infer the narrowest mode that satisfies the request:
 - **Cross-platform adaptation**: keep one product-truth core, then redesign the
   hierarchy, text density, crop, and proof for each platform. Do not merely
   resize one canvas.
+- **Creative direction exploration**: when the user asks for high-end options,
+  style divergence, 发散, 多个方向, or rejects an output as generic/cheap, create
+  three strategically different directions before polishing one. Change the
+  visual event, camera/crop, lighting, typography, proof device, and copy angle;
+  palette-only variants do not count. Generate separate previews when the user
+  asks to see effects.
 - **Prompt/plan only**: output shot plans and prompts without calling image
   generation only when the user explicitly asks for prompts, planning, or no
   generation.
@@ -149,6 +155,21 @@ stacked-photo, red-ribbon, coupon-card, and badge-wall treatments.
 Extract strategy, never proprietary expression. Do not copy exact wording,
 layout, icons, colour system, model pose, background, data, or brand elements.
 
+For a brand system, separate **fixed recognition assets** from **flexible creative
+assets**. Keep logo zone, type family, accent logic, and trust-rail grammar
+consistent; vary composition, people, camera, environment, proof event, and copy
+viewpoint by product. Do not confuse brand consistency with one repeated template.
+
+Choose colour and type sources in this order:
+
+1. user-supplied brand guide, assets, or explicit theme;
+2. current official brand site or store system;
+3. colours physically present on the exact product/SKU;
+4. a named generic preset offered as a choice.
+
+Competitor colours are evidence of category grammar, never permission to replace
+the user's brand. Record the palette source and exact tokens before prompting.
+
 ## Step 4 — Build the decision map
 
 Write a compact internal map before prompts:
@@ -210,8 +231,11 @@ Each prompt must include all of the following:
 Platform and role: [platform] [role id] [placement]
 Output: [verified ratio/size or conservative master], mobile-first safe zones
 Visual tier: [value-led / technical / premium flagship / supplied brand system]
+Concept family: [sports editorial / engineering luxury / architectural product / other]
 Theme preset: [theme id, exact palette, accent ratio]
 Information density: [editorial / conversion / technical]
+Brand constants: [logo zone, type family, accent rule, trust-rail grammar]
+Creative variables: [camera, action/person, lighting, environment, proof device]
 Product truth: use supplied product images as exact visual reference; preserve
 shape, colour, proportions, state, branding, quantity, and included parts
 Core viewpoint: [one buyer-facing conclusion]
@@ -317,6 +341,9 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 - [ ] One buyer decision and one visual proof per image
 - [ ] Copy density fits the platform/category; premium does not become information-empty
 - [ ] Theme id, palette, accent ratio, type system, and layout family are explicit
+- [ ] Direction exploration varies at least five creative axes, not only colour
+- [ ] Brand constants stay recognisable while product-specific visual events change
+- [ ] Palette source is recorded; competitor colour has not overridden the brand
 - [ ] Platform adaptation changes hierarchy, not only canvas size
 - [ ] Explicit premium/flagship direction overrides mass-market category-average decoration
 - [ ] Premium assets use restrained composition, material, light, and typography—not red ribbons, stacked cards, badge walls, or automatic black-gold styling
@@ -341,6 +368,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 | Treating “高端” as black-gold, red banners, or more effects | Build premium value through product scale, architectural space, controlled light, restrained colour, precise typography, and credible proof |
 | Treating “高端” as one vague headline in empty space | Use one conversion thesis plus 2-3 concise, evidence-backed support points when the category requires fast comparison |
 | Picking colours independently for every image | Choose a named theme preset and keep its palette, accent ratio, typography, and proof-rail logic across the set |
+| Calling three palette swaps “creative directions” | Change subject/action, crop, light, type composition, proof device, and copy viewpoint |
+| Repeating one branded template across every SKU | Fix the recognition layer; vary the product story and visual event |
 | Blindly copying the dominant search-page style | Preserve the category's click logic while designing to the requested brand position |
 | Generating exact products from imagination | Use real product references; synthesize scene, not sellable-item identity |
 | Rendering long Chinese text inside AI images | Keep copy short or use deterministic post-typesetting |
