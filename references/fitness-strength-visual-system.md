@@ -139,6 +139,33 @@ For Taobao/Tmall fitness first images, require all of these before generation:
   when supplied, current, requested, and supportable;
 - the image still reads as a purchasable listing when reduced to 180-240 px.
 
+### Domestic ecommerce space-utilisation gate
+
+Premium does not mean sparse. Mainland ecommerce normally permits and rewards
+more explicit expression than a Western campaign or DTC hero. Use the square as
+selling space while preserving hierarchy:
+
+- make product/action, buyer conclusion, and visible proof collectively use the
+  frame; no large dead quadrant exists only to signal minimalism;
+- aim for an active visual occupancy of roughly 82-92%, counting product,
+  athlete, headline, purposeful colour fields, scene cues, and proof devices;
+- give each major region a job: identify the SKU, stop the scroll, answer a
+  purchase objection, or establish believable use;
+- layer foreground product, middle-ground text/colour geometry, and a separated
+  background so black equipment never sits in grey haze;
+- use brand colour as an active commercial surface, not a tiny decorative line;
+- allow dense expression, but maintain one dominant product, one dominant
+  conclusion, and one evidence cluster rather than many equal modules.
+
+Reject the image when:
+
+- more than about one quarter is dead white/grey space with no selling role;
+- an isolated side panel, three equal cards, or a corporate information rail
+  makes the image resemble a presentation slide;
+- low-contrast grey-on-grey lighting makes the product and message feel muddy;
+- removing a bottom rail leaves the composition visibly unfinished;
+- the layout gets “premium” only by deleting useful product information.
+
 Reject a `MAIN-01` that reads primarily as:
 
 - a dark sports campaign with hidden product geometry;
@@ -568,8 +595,8 @@ Use these as layout families, not decorative overlays:
 
 | Geometry | Best use | Constraint |
 |---|---|---|
-| `IG-OPEN` | premium product or home hero | no rail; one headline in clean negative space |
-| `IG-SIDE` | tall pull-up towers and racks | slim vertical fact track reinforces height |
+| `IG-OPEN` | premium product or home hero | no rail; product, headline, scene and colour field still use the square fully |
+| `IG-SIDE` | tall pull-up towers and racks | facts interlock with product/scene; never use a detached corporate sidebar |
 | `IG-ANCHOR` | stability or engineering claim | 1-2 callouts attach to real visible structure |
 | `IG-CUT` | power/action direction | one bold colour plane intersects text, not product geometry |
 | `IG-SPLIT` | multi-function or comparison | unequal 65/35 zones; complete product remains primary |
@@ -579,6 +606,11 @@ Use these as layout families, not decorative overlays:
 Do not present alternatives that differ only by palette, room, or headline.
 Change the buyer tension, product camera, information geometry, and proof device
 while preserving the brand constants and exact SKU.
+
+For every MAIN alternative, run a 200 px thumbnail check and a quadrant check.
+At thumbnail size, product + conclusion must dominate. In the quadrant check,
+every quadrant must contain product/action, meaningful copy, active brand
+geometry, or believable scene context; decorative emptiness does not pass.
 
 ### Product-family display routes
 
