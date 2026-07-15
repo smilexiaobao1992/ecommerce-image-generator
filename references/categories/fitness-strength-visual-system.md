@@ -172,6 +172,41 @@ Reject a first image when large typography occupies roughly half the square,
 when the product becomes an illustration beside the slogan, or when feature
 proof makes it read like a carousel/detail board.
 
+#### MAIN-01 naming and typography hierarchy
+
+Choose whether the primary text should identify the product or sell the outcome.
+When category recognition, search relevance, or an unfamiliar silhouette matters,
+make the exact product name the primary headline and demote the emotional idea to
+a subtitle. Do not force an emotional slogan to carry product identification.
+
+Use this hierarchy when the product name leads:
+
+1. optional small audience/context tag;
+2. exact product name as the primary headline;
+3. one emotional or scenario subtitle;
+4. zero to two short verified brand/service claims when supplied.
+
+Typography rules:
+
+- avoid two headline lines with identical size, weight, and density;
+- set the core category noun about 1.25-1.45 times the modifier line when a
+  Chinese product name is split across lines;
+- use a modern heavy Chinese sans with natural glyph proportions; avoid extreme
+  condensation, artificial stretching, outlines, bevels, and blocky display
+  treatments that make a premium home scene look like a discount poster;
+- keep the total primary headline region within about 16-22% of visual weight
+  and normally no more than one third of canvas width;
+- set the emotional subtitle at roughly 40-55% of the main headline size, one
+  compact line when possible, and keep it visually quieter than the product name;
+- place two or three supplied short claims in one secondary cluster using
+  staggered brand-colour ribbons, aligned text, or another integrated device;
+  keep the cluster around 8-12% of visual weight and avoid equal icon cards;
+- fill secondary copy space with hierarchy, not with invented features.
+
+Never hard-code example claims into category output. Product names, export
+positioning, warranty, service, certifications, and other proof must come from
+the current user/product/brand evidence before they appear in the image.
+
 #### Open-frame product footprint gate
 
 Pull-up towers, freestanding bars, dip stations, and similar equipment are tall
