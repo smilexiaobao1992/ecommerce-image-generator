@@ -299,6 +299,27 @@ roles, and any compliance caveat. Then:
   text, units, SKU quantity, claim/proof alignment, and platform safe zones;
 - regenerate only the failed image, not the whole set.
 
+### Protect the clean master during revisions
+
+AI image edits may re-synthesise the whole frame even when the request names a
+small region. Repeated edits can accumulate wave-like texture, cloudy walls,
+repeating floor grain, painterly skin, soft product edges, and compression noise.
+
+- keep the cleanest approved generation and original product photos as the
+  revision master; never replace that master with each edited derivative;
+- allow at most one AI edit on the same generated derivative before returning
+  to the clean master;
+- when a second revision is needed, consolidate all remaining corrections into
+  one fresh prompt using the clean master and original product references;
+- use screenshots with arrows/boxes only as placement annotations, never as the
+  primary visual-quality source;
+- if edits touch typography, icons, anatomy, logo removal, and layout together,
+  prefer one clean rebuild over a chain of local edits;
+- inspect smooth walls, curtains, skin, black fabric/steel, and wood floors at
+  full size for ripples, repeated texture, painterly noise, and softened edges;
+- do not hide accumulated artifacts with sharpening, blur, grain, or aggressive
+  denoising; return to the clean master instead.
+
 If the image-generation tool requires no text after generation, place all notes
 and warnings before the first call and end after the final image call.
 
@@ -360,6 +381,8 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 - [ ] Set uses varied compositions and avoids template repetition
 - [ ] Weak or repetitive slots skipped with reason
 - [ ] Separate production images generated for a requested set
+- [ ] Final revision came from a clean master, not a repeatedly edited derivative
+- [ ] Walls, curtains, skin, steel, and floor are free of wave/repetition artifacts
 - [ ] Final assets inspected on the real affected path before claiming completion
 
 ## Common mistakes
@@ -380,5 +403,6 @@ Platform approval is not legal approval. Platform rejection is not the only risk
 | Blindly copying the dominant search-page style | Preserve the category's click logic while designing to the requested brand position |
 | Generating exact products from imagination | Use real product references; synthesize scene, not sellable-item identity |
 | Rendering long Chinese text inside AI images | Keep copy short or use deterministic post-typesetting |
+| Repeatedly editing the latest AI derivative | Return to the clean master and consolidate corrections into one fresh generation |
 | Making long details as repeated banners | Build a varied module narrative with proof and decision progression |
 | Copying a competitor that converts well | Transfer the communication principle, then create an original composition |
