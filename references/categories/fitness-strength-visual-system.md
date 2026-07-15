@@ -139,6 +139,33 @@ For Taobao/Tmall fitness first images, require all of these before generation:
   when supplied, current, requested, and supportable;
 - the image still reads as a purchasable listing when reduced to 180-240 px.
 
+#### Open-frame product footprint gate
+
+Pull-up towers, freestanding bars, dip stations, and similar equipment are tall
+but visually hollow. Do not treat a large outer bounding box as sufficient
+product scale. Judge the visible steel, handles, uprights, base, pads, and user
+overlap at search-thumbnail size.
+
+For an open-frame `MAIN-01`:
+
+- product-led images normally place the full product at 82-92% of canvas height
+  and 42-55% of canvas width at the base;
+- keep roughly 3-6% breathing room above the top grips and 2-5% below the lowest
+  floor pad; do not create premium space by shrinking the equipment;
+- action-led images normally make product + athlete occupy 70-80% of the active
+  frame while the full uprights, handles, base, and all landing pads remain
+  structurally readable;
+- enlarge the product about 8-15% from a visually thin first draft before
+  adding more copy, provided no true product part is cropped;
+- use a low three-quarter camera, stronger base perspective, clean edge light,
+  or correct athlete overlap to increase visual mass without falsifying size;
+- let type wrap around or sit behind the product hierarchy; the headline must
+  not make the equipment feel like a small illustration beside an ad slogan.
+
+Reject the image when the tower is technically tall in the frame but still
+looks thin at 200 px, when the base lacks visual width, when any floor pad is
+cropped, or when headline/colour geometry has more visual weight than the SKU.
+
 ### Domestic ecommerce space-utilisation gate
 
 Premium does not mean sparse. Mainland ecommerce normally permits and rewards
@@ -185,7 +212,8 @@ Core relationship:
 
 Typical occupancy guidance:
 
-- product + action: 55-68%;
+- product + action: 70-80% for open-frame equipment, counting only the active
+  combined visual footprint rather than the empty space inside the frame;
 - headline and supporting copy: 18-28%;
 - integrated evidence/action cluster: 10-18%;
 - visible brand colour surface: 12-25%, with overlap between these zones.
