@@ -9,7 +9,7 @@
 - 区分搜索主图、白底图、轮播卖点图、SKU 图、详情页和活动图。
 - 支持淘宝、天猫、京东、拼多多的平台适配。
 - 从商品照片中提取可见结构，避免生成不存在的配件、功能和参数。
-- 根据品牌主题指定颜色、字体、人物、场景和信息密度。
+- 根据品牌主题指定颜色、字体、人物、场景、信息密度和视觉冲击档位。
 - 支持多个创意方向，而不是只更换背景或标题。
 - 根据类目专用规则处理消费者顾虑、摄影方式和成交信息。
 - 对价格、承重、排名、专利、认证和促销等高风险信息进行证据检查。
@@ -51,7 +51,29 @@ git clone https://github.com/smilexiaobao1992/ecommerce-image-generator.git \
 ```text
 使用 $china-ecommerce-image-generator 重做 MAIN-01。
 保留商品结构和品牌绿色，采用高密度力量电商风格，不使用固定底栏。
+信息密度使用 D2，视觉冲击使用 I3-HIGH-IMPACT。
 ```
+
+### 指定视觉冲击强度
+
+视觉冲击和信息密度可以分别指定：
+
+| 参数 | 效果 |
+|---|---|
+| `I1-RESTRAINED` | 克制旗舰：安静网格、少穿插、适合白底/SKU/文件证明 |
+| `I2-ASSERTIVE` | 平衡转化：标题醒目、对比明确，默认档 |
+| `I3-HIGH-IMPACT` | 高冲击电商：大字、强对比、品牌色切面、产品与文字穿插、高空间利用率 |
+
+例如：
+
+```text
+使用 $china-ecommerce-image-generator 生成淘宝健身器材轮播图。
+主题使用 BRAND-LIME，信息密度使用 D2，视觉冲击使用 I3-HIGH-IMPACT。
+标题允许两行大字和绿/藏青切面，但商品与动作必须保持第一视觉主体。
+```
+
+`I3` 不代表堆满徽章或促销元素。它强化的是字号、对比、色块面积、
+穿插关系和画面占用率，商品真实性、文案证据和动作正确性仍是硬门槛。
 
 跨平台适配示例：
 
@@ -144,4 +166,3 @@ references/categories/beauty-skincare.md
 ```bash
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py" .
 ```
-

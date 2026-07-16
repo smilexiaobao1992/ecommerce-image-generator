@@ -440,6 +440,7 @@ PLATFORM_ROLE: [platform + MAIN/CAR/DET/SKU]
 THEME_ID: [BRAND-LIME / STRENGTH-RED / LIME-TECH / WARM-FLAGSHIP /
 KIDS-ACTIVE / MONO-ENGINEERING / supplied-brand]
 DENSITY: [D1-editorial / D2-conversion / D3-technical]
+IMPACT_LEVEL: [I1-restrained / I2-assertive / I3-high-impact]
 CONCEPT_FAMILY: [A1-performance-editorial / A2-engineering-luxe /
 A3-architectural-product / kids-active / supplied-brand]
 LAYOUT_ID: [F1-hero-rail / F2-action-proof / F3-structure-macro /
@@ -455,6 +456,34 @@ PROOF_EVENT: [visible action, structure, dimension, mechanism, or exact contents
 
 If the user supplies brand colours, use `supplied-brand` and derive accessible
 light/dark/support tones from those colours. Do not silently replace the brand.
+
+### Visual-impact control
+
+Do not infer visual force from `DENSITY`. Resolve both fields independently:
+
+| Level | Use | Visual behaviour |
+|---|---|---|
+| `I1-restrained` | white-background, SKU, quiet editorial or documented proof | calm grid, limited overlap, accent 3-8%, generous but purposeful spacing |
+| `I2-assertive` | default premium conversion image | strong headline, clear contrast, accent 8-18%, moderate product/type interlock |
+| `I3-high-impact` | Taobao/Tmall fitness when the user asks for strong stopping power | oversized or cropped two-line type, active navy/lime fields, diagonal cuts, product/type overlap, 88-95% active occupancy |
+
+For `I3-high-impact`:
+
+- make one product, action, number, or 2-line conclusion the unmistakable stop;
+- use navy/lime as substantial interlocking surfaces, not a thin decorative rule;
+- let product, athlete, type, and colour planes overlap deliberately while
+  keeping faces, hands, grips, dimensions, and the product silhouette readable;
+- on `MAIN-01`, keep product + person at 78-86% effective visual weight and
+  headline geometry at 14-22%; high impact must not demote the SKU;
+- on carousel roles, allow the verified number or headline to carry about
+  22-35% when the product/action still carries 65-80% and remains structurally clear;
+- preserve one conversion thesis and one evidence cluster; high impact does not
+  authorize extra badges, unsupported claims, glow, outlines, or chaotic copy.
+
+Default to `I2-assertive` when the user gives no impact preference. Route phrases
+such as `视觉冲击强`, `更炸`, `更醒目`, `打破消费者心理`, `不像电商图`, or
+`和后面的图不搭` to `I3-high-impact`. Do not route `高端` alone to I1: premium
+can be restrained or high-impact, so resolve both positioning and impact.
 
 ## 6. Theme presets
 

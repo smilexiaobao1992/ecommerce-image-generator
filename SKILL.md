@@ -239,6 +239,7 @@ Visual tier: [value-led / technical / premium flagship / supplied brand system]
 Concept family: [sports editorial / engineering luxury / architectural product / other]
 Theme preset: [theme id, exact palette, accent ratio]
 Information density: [editorial / conversion / technical]
+Visual impact: [I1-restrained / I2-assertive / I3-high-impact]
 Brand constants: [logo zone, type family, accent rule, trust-rail grammar]
 Creative variables: [camera, action/person, lighting, environment, proof device]
 Product truth: use supplied product images as exact visual reference; preserve
@@ -252,6 +253,14 @@ Style: [brand/category/platform direction], commercially credible photography
 Negative constraints: [unsupported claims, distortions, artifacts, forbidden
 elements, wrong SKU, copied competitor devices]
 ```
+
+Treat information density and visual impact as separate controls. Density sets
+how many facts appear; impact sets headline scale, contrast, colour-field area,
+overlap, crop tension, and active occupancy. A technical image may be `D3 + I3`,
+while a one-line main image may be `D1 + I3`. When the user says `视觉冲击强`,
+`不够炸`, `不够醒目`, `和后面的图不搭`, or asks for the stronger domestic
+ecommerce direction, select `I3-high-impact` explicitly instead of assuming
+that `premium flagship` means restrained typography.
 
 Add this truth constraint to every product-generation prompt:
 
