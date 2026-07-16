@@ -605,6 +605,19 @@ list and design with qualitative copy until evidence exists.
 - Suitable for a carousel benefit image; use as MAIN only when the action remains
   clear at thumbnail size and does not hide product identity.
 
+#### Pull-up-tower action-orientation gate
+
+Before generating pull-ups, hanging knee raises, or other top-bar actions, map
+the tower's open training side from its base rails, cross brace, dip handles,
+and top-bar projection. Place the athlete on that side, normally between the
+two long base rails and in front of the lower cross brace, facing the uprights.
+Use a rear or three-quarter-rear camera when needed to make this relationship
+unambiguous. Reject an action when the athlete hangs from the rear side, grips
+the bar with reversed wrists, intersects an upright, or uses the wrong handle.
+
+For multi-action images, re-check the training side separately in every crop;
+do not let a correct hero action coexist with a mirrored or reversed inset.
+
 ### F3 — Structure + macro
 
 - One dominant product or joint plus one or two connected macro crops.
@@ -650,6 +663,12 @@ list and design with qualitative copy until evidence exists.
 - verified dimensions/specs and qualifiers;
 - use for JD technical images, CAR-03/04, or DET modules—not a default lifestyle
   hero.
+
+Technical does not mean low-impact. When the user selects a high-density
+domestic-commerce direction, let one verified range or capacity become a bold
+numeric anchor and integrate measurement lines with the product or floor plane.
+Do not repeat the same dimension in a headline, floor label, and bottom strip.
+Keep one value in one visual location, with its unit and qualifier attached.
 
 ### Copy logic by product
 
@@ -769,6 +788,13 @@ brand invariant. Across three MAIN alternatives, require at least three
 different information geometries. Across a carousel set, do not repeat the same
 container on consecutive images; retain cohesion through type, colour, line
 weight, logo zone, and image treatment instead.
+
+Treat a corner brand mark and a logo printed on the product as separate assets.
+When the user requests later carousel images with no logo, confirm whether that
+means only the corner mark or all visible marks. If the user explicitly asks to
+remove the product logo, make the named product surface plain while preserving
+its geometry; do not reintroduce the mark in secondary crops, clothing, macros,
+or reflected surfaces.
 
 ### MAIN information-geometry rotation
 
